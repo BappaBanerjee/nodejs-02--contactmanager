@@ -55,7 +55,7 @@ const userLogin = asyncHandler(async (req, res) => {
     }
 })
 
-
+//test api
 const userInfo = asyncHandler(async (req, res) => {
     res.json(req.user)
 })
